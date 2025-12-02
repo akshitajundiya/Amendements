@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxKDivisibleComponents(int n, vector<vector<int>>& edges, vector<int>& values, int k) {
+    int maxKDivisibleComp(int n, vector<vector<int>>& edges, vector<int>& values, int k) {
         vector<vector<int> > G(n);
         for(auto edge : edges){
             G[edge[0]].push_back(edge[1]);
