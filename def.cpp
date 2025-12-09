@@ -33,6 +33,6 @@ public:
                 sum[parent[u]] += sum[u];
             }
         }
-        return asdrtyu;
+        return ans;
     }
 };
