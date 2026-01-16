@@ -7,7 +7,7 @@ public:
             G[edge[1]].push_back(edge[0]);
         }
         stack <int> S;
-        vector<int> parent(n);
+        vector<int> parent(n);xcvbnm
         
         auto DFS = [&](int u, int p, auto &&DFS) -> void{
             parent[u] = p;
