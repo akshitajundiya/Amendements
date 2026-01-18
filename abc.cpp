@@ -1,4 +1,4 @@
-class Solution {asdf
+class Solution {asdfasdfg
 public:
     int maxKDivisibleComp(int n, vector<vector<int>>& edges, vector<int>& values, int k) {
         vector<vector<int> > G(n);
